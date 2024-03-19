@@ -42,9 +42,18 @@ To encrypt the created file, use the command _ccrypt_ mycryptotest and enter enc
 
 <img width="231" alt="encrypting the file1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/2d88c1a5-768a-4ad9-b595-f82109ed6863">
 
- use _ls_ to verify the encrypted file. The cpt extension replaces the txt extension when the fuile is encrypted.
- Use nano to view the encrypted content of mycryptotest file using the command in the previouse steps. The content of the file unreadable.
+use _ls_ to verify the encrypted file. File with cpt extension replaces the original file when the file is encrypted. The file will remain encrypted in storage and in transit.
+Use nano to view the encrypted content of mycryptotest file using the command in the previouse steps. The content of the file unreadable.
 
 <img width="351" alt="ls to view encrypted file1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/d7aef4a8-cd87-4aff-a269-99910247f3a4">
 
 <img width="427" alt="result of opened encrypted file1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/3a9085d9-d36e-4984-ad11-e89c45236d35">
+
+To decrypt the file, the command _ccat_ is used to temporary view the content of the file without decrypting the actual file. Enter the encryption key to view the file.
+
+<img width="380" alt="display the decrypted file1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/0e57c35e-3263-42f6-8c27-22b6385f90a4">
+
+To  decrypt the file entirely, the command _ccrypt -d_ is used. Enter the encryption key and the file is decrypted. Verify decryption using the _ls_ command. 
+
+<img width="486" alt="decrypt and ls1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/1e6cc896-272b-4f52-87fc-d38ccfe7cdcf">
+
