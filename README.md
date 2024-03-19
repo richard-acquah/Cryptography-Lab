@@ -61,8 +61,7 @@ To change encryption key, use the command ***ccrypt -x***:
 
 <img width="371" alt="changing key1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/51e035cc-2daf-4301-bfbc-4e04e2ba2917">
 
-## Conclusion
-Encryption tools are essential in the cyberspace. Network breaches are inevitable and encrypting data in tansit and in storage is essential in keeping important data out of the hands os adversaries.  
+ 
 
 
 
@@ -78,6 +77,8 @@ Verify secret.txt file:
 
 To encrypt secret.txt, use the command: ***openssl aes-256-cdc -a -pbkdf2 -in secret.txt -out secret.enc*** and enter and create encryption password.
 
+__NOTE__: enc extension means the file is encrypted.
+
 <img width="413" alt="prompt for password1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/2c775ee5-1b18-4587-881d-20096075e9be">
 
 Verify the encrypted file is created and the content with text editor.
@@ -85,7 +86,10 @@ Verify the encrypted file is created and the content with text editor.
 <img width="521" alt="enc file and content1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/72143053-d1fd-4616-8cab-e7aad983be92">
 
 To decrypt secret.enc, use the command: ***openssl aes-256-cdc -a -pbkdf2 -in secret.enc -out secret.txt*** and enter the encryption password used to encrypt the file.
+
 __NOTE__: I deleted the original secret.txt before performing the decryption.
 
 <img width="547" alt="decrypted file1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/331ddb68-227e-4cfc-a311-21e03cef2212">
 
+## Conclusion
+Encryption tools are essential in the cyberspace. Network breaches are inevitable and encrypting data in tansit and in storage is essential in keeping important data out of the hands os adversaries. 
