@@ -60,3 +60,6 @@ To  decrypt the file entirely, the command ***ccrypt -d*** is used. Enter the en
 To change encryption key, use the command ***ccrypt -x***:
 
 <img width="371" alt="changing key1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/51e035cc-2daf-4301-bfbc-4e04e2ba2917">
+
+## Conclusion
+Encryption tools are essential in the cyberspace. Network breaches are inevitable and encrypting data in tansit and in storage is essential in keeping important data out of the hands os adversaries.  
