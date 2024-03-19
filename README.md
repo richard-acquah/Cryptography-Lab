@@ -1,7 +1,7 @@
 # Cryptography-Lab
 
 ## Objectives
-These cryptography labs demostrate how to install cryptographic tools and how it is used to encrypt and decrypt file. This lab focuses encrypting and decrypting files using __ccrypt__ and __openssl__ in Kali linux. The lab is a demostration of symmetric encryption and how a single key is used to encrypt and decrypt files.
+These cryptography labs demostrate how to install cryptographic tools and how it is used to encrypt and decrypt file. This lab focuses encrypting and decrypting files using __ccrypt__ and __open ssl__ in Kali linux. The lab is a demostration of symmetric encryption and how a single key is used to encrypt and decrypt files.
 
 ## Skills Learned
 + File encryption and decryption.
@@ -11,7 +11,7 @@ These cryptography labs demostrate how to install cryptographic tools and how it
 ## Resources / Tools / Utilities
 + Kali Linux
 + Ccrypt
-+ Openssl
++ Open ssl
 
 ## ENCRYPTING AND DECRYPTING FILES USING CCRYPT IN KALI LINUX
 ## Steps:
@@ -63,3 +63,20 @@ To change encryption key, use the command ***ccrypt -x***:
 
 ## Conclusion
 Encryption tools are essential in the cyberspace. Network breaches are inevitable and encrypting data in tansit and in storage is essential in keeping important data out of the hands os adversaries.  
+
+
+
+## ENCRYPTING AND DECRYPTING FILES USING OPEN SSL IN KALI LINUX
+## Steps:
+Create text file on desktop and name it secrete.txt. use nano text editor to add text to the file. 
+
+<img width="580" alt="nano edit text1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/fa94f887-c6e7-450b-ad68-e90cf7c4cb47">
+
+Verify secret.txt file:
+
+<img width="441" alt="file on desktop1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/c8c54332-a308-4a87-9f78-f945b559ddc2">
+
+
+
+
+
