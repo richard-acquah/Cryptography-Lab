@@ -16,6 +16,7 @@ These cryptography labs demonstrate how to install cryptographic tools and how i
 ## ENCRYPTING AND DECRYPTING FILES USING CCRYPT IN KALI LINUX
 ## Steps:
 First update the packages in kali linux using the following command with elivated privillages: ***apt update***. Enter password to proceed.
+
 <img width="241" alt="running updatces" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/7e5b70ea-597f-42f7-9b7b-439943d61164">
 <img width="400" alt="update running" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/6ffc2396-e7ab-423e-9020-97b37906d7e1">
 
