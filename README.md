@@ -1,7 +1,7 @@
 # Cryptography-Lab
 
 ## Objectives
-These cryptography labs demostrate how to install cryptographic tools and how it is used to encrypt and decrypt file. This lab focuses encrypting and decrypting files using __ccrypt__ and __open ssl__ in Kali linux. The lab is a demostration of symmetric encryption and how a single key is used to encrypt and decrypt files.
+These cryptography labs demonstrate how to install cryptographic tools and how it is used to encrypt and decrypt files. This lab focuses on encrypting and decrypting files using __ccrypt__ and __open ssl__ in Kali Linux. The lab is a demonstration of symmetric encryption and how a single key is used to encrypt and decrypt files.
 
 ## Skills Learned
 + File encryption and decryption.
