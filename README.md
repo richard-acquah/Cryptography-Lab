@@ -1,12 +1,12 @@
 # Cryptography-Lab
 
 ## Objectives
-These cryptography labs demonstrate how to install cryptographic tools and how it is used to encrypt and decrypt files. This lab focuses on encrypting and decrypting files using __ccrypt__ and __open ssl__ in Kali Linux. The lab is a demonstration of symmetric encryption and how a single key is used to encrypt and decrypt files.
+These cryptography labs demonstrate how to install cryptographic tools and how it is used to encrypt and decrypt files. This lab focuses on encrypting and decrypting files using __ccrypt__ and __open ssl__ in Kali Linux. This lab is a demonstration of symmetric encryption that uses a single key is used to encrypt and decrypt files.
 
 ## Skills Learned
 + File encryption and decryption.
 + Enhanced knowledge of encryption algorithms.
-+ in-depth understanding of Symmetric encryption.
++ In-depth understanding of Symmetric encryption.
 
 ## Resources / Tools / Utilities
 + Kali Linux Virtual Machine
@@ -35,7 +35,7 @@ create a text file named mycryptotest and verify it is created. Use the ***touch
 
 ##
 
-Use Nano to add text to the file. The command ***nano*** mycryptotest.txt to open the file with the nano text editor.
+Use Nano to add text to the file. The command ***nano*** mycryptotest.txt is used to open the file with a nano text editor.
 
 
 <img width="158" alt="open file with nano" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/2df6f47e-47f0-43b0-a17e-8384190c7553">
@@ -62,13 +62,13 @@ Use nano to view the encrypted content of mycryptotest file using the command in
 
 ##
 
-To decrypt the file, the command ***ccat*** is used to temporarily view the content of the file without decrypting the actual file. Enter the encryption key to view the file.
+To decrypt the file, the command ***ccat*** is used to temporarily view the file's content without decrypting the actual file. Enter the encryption key to view the file.
 
 <img width="380" alt="display the decrypted file1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/0e57c35e-3263-42f6-8c27-22b6385f90a4">
 
 ##
 
-To decrypt the file entirely, the command ***ccrypt -d*** is used. Enter the encryption key and the file is decrypted. Verify decryption using the ***ls*** command. 
+The command ***ccrypt -d*** is used to decrypt the file entirely. Enter the encryption key and the file is decrypted. Verify decryption using the ***ls*** command. 
 
 <img width="486" alt="decrypt and ls1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/1e6cc896-272b-4f52-87fc-d38ccfe7cdcf">
 
@@ -94,7 +94,7 @@ Verify secret.txt file:
 
 ##
 
-To encrypt secret.txt, use the command: ***openssl aes-256-cdc -a -pbkdf2 -in secret.txt -out secret.enc*** and enter and create encryption password.
+To encrypt secret.txt, use the command: ***openssl aes-256-cdc -a -pbkdf2 -in secret.txt -out secret.enc*** and enter and create an encryption password.
 
 __NOTE__: enc extension means the file is encrypted.
 
@@ -110,7 +110,7 @@ Verify the encrypted file is created and the content with the text editor:
 
 To decrypt the secret.enc, use the command: ***openssl aes-256-cdc -a -pbkdf2 -in secret.enc -out secret.txt*** and enter the encryption password used to encrypt the file.
 
-__NOTE__: I deleted the original secret.txt before performing the decryption.
+__NOTE__: I deleted the original secret.txt before decrypting.
 
 
 <img width="547" alt="decrypted file1" src="https://github.com/richard-acquah/Cryptography-Lab/assets/136107996/331ddb68-227e-4cfc-a311-21e03cef2212">
